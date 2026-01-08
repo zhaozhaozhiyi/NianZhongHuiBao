@@ -1,0 +1,14 @@
+/* 确保图片可以点击 */
+.vp-doc img,
+.content img,
+main img {
+  transition: opacity 0.2s;
+}
+
+.vp-doc img:hover,
+.content img:hover,
+main img:hover {
+  opacity: 0.9;
+}
+
+
